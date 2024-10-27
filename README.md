@@ -26,13 +26,15 @@ Este projeto implementa um sistema de detecção de anomalias em transações fi
    ```bash
    python -m venv .venv
 
-3. Ative a virtual environment:
-    ° No Windows:
-    ```bash
-    venv\Scripts\activate
-    ° No macOS e Linux:
-    ```bash
-    source venv/bin/activate
+3. Ative a virtual environment no Windows:
+   - No Windows:
+     ```bash
+     venv\Scripts\activate
+     ```
+   - No macOS e Linux:
+     ```bash
+     source venv/bin/activate
+     ```
 
 4. Instale as dependências:
     ```bash
@@ -41,7 +43,3 @@ Este projeto implementa um sistema de detecção de anomalias em transações fi
 5. Execute a aplicação:
     ```bash
     python run.py
-
-
-
-
